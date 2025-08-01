@@ -2,6 +2,16 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>This app needs microphone access for voice recording</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This application needs photo library access for users to select pictures for profile picture upload</string>
+	<key>NSCameraUsageDescription</key>
+	<string>This app needs camera access for profile picture upload</string>
+	<key>NSContactsUsageDescription</key>
+	<string>This app needs access to contacts to show your contact list.</string>
+	<key>NSDocumentsFolderUsageDescription</key>
+	<string>We need access to the documents folder to save the recordings.</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
