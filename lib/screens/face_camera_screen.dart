@@ -494,22 +494,17 @@ class _FaceCameraScreenState extends State<FaceCameraScreen>
                 .scaleXY(begin: 1.1, end: 1.0, duration: 1000.ms),
           ),
           
-          // Scanning Animation
           _buildScanningOverlay(),
           
-          // Face Emoji Overlay
           CustomPaint(
             painter: AnimatedFaceEmojiPainter(_faces, _pulseController),
             child: Container(),
           ),
           
-          // Status Indicator
           _buildStatusIndicator(),
           
-          // Stats Panel
           if (_showStats) _buildStatsPanel(),
           
-          // Control Buttons
           _buildControlButtons(),
         ],
       ),
